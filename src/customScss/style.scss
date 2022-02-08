@@ -1,0 +1,26 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+// .paragraph-text{
+//     font-size: 16px;
+//     text-align: center;
+// }
+
+.heroBg{
+    background: url(../Img/pattern-background-desktop.svg),#E0E8FF;
+    height: 100vh;
+    // background-size: ;
+    background-position: top;
+    background-repeat:repeat-x;
+}
+
+// .heroSBg{
+//     background: url(../Img/pattern-background-mobile.svg),#E0E8FF;
+//     height: 100vh;
+//     background-position: top;
+//     background-repeat: repeat-x
+// }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
